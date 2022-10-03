@@ -1,30 +1,43 @@
 <!DOCTYPE html>
 <html lang="en-us">
-	<head>
-		<meta charset="utf-8" />
-		<title>Your first HTML form, styled</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-	</head>
+  <head>
+    <meta charset="utf-8" />
+    <title>Your first HTML form, styled</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&family=Source+Sans+Pro:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-	<body>
-		<form action="/my-handling-form-page" method="post">
-			<ul>
-				<li>
-					<label for="name">Name:</label>
-					<input type="text" id="name" name="user_name" />
-				</li>
-				<li>
-					<label for="mail">E-mail:</label>
-					<input type="email" id="mail" name="user_mail" />
-				</li>
-				<li>
-					<label for="msg">Message:</label>
-					<textarea id="msg" name="user_message"></textarea>
-				</li>
-				<li class="button">
-					<button type="submit">Send your message</button>
-				</li>
-			</ul>
-		</form>
-	</body>
+  <body>
+    <h1>Form</h1>
+    <p><i class="fas fa-cloud"></i></p>
+    <i class="fi fi-brands-google"></i>
+    <form action="/my-handling-form-page" method="post">
+      <ul>
+        <li>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="user_name" />
+        </li>
+        <li>
+          <label for="mail">E-mail:</label>
+          <input type="email" id="mail" name="user_mail" />
+        </li>
+        <li>
+          <label for="msg">Message:</label>
+          <textarea id="msg" name="user_message"></textarea>
+        </li>
+        <li class="button">
+          <button type="submit">Send your message</button>
+        </li>
+      </ul>
+    </form>
+  </body>
 </html>
